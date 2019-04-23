@@ -51,9 +51,9 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
 
 2. Arhivos UI y acciones a seguir :
 
-   * `Revision inicial` [rev1.jpg](https://github.com/jr-acosta/specs-reqs)
+   * `Revision inicial` [Rev1.jpg](https://github.com/jr-acosta/specs-reqs/files/Rev1.jpg)
    
-   ![REV1](/files/rev1.jpg)
+   ![REV1](/files/Rev1.jpg)
    ```sh
    La revision inicial consiste en revisar el archivo de excel que envia el proveedor donde se especifica
    que facturas son mencionadas para exigir el pago por parte de esta institucion. si la factura que el
@@ -62,18 +62,18 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
    que el proveedor reclame.
    ```
 
-   * `Validacion` [rev2.jpg](https://github.com/jr-acosta/specs-reqs) 
+   * `Validacion` [Rev2.jpg](https://github.com/jr-acosta/specs-reqs/files/Rev2.jpg) 
 
-   ![REV2](/files/rev2.jpg)
+   ![REV2](/files/Rev2.jpg)
    ```sh
    En esta opcion se ejecutara de forma automatica la revision de las facturas que fueron encontradas
    en la bandeja de entrada de outlook, la revision incluye de forma automatica las reglas de revision.
    En este punto el operador/usuario no interviene solo espera el resultado.
    ```
 
-   * `Actualizar Status` [rev3.jpg](https://github.com/jr-acosta/specs-reqs) 
+   * `Actualizar Status` [rev3.jpg](https://github.com/jr-acosta/specs-reqs/files/Rev3.jpg) 
 
-   ![REV3](/files/rev3.jpg)
+   ![REV3](/files/Rev3.jpg)
    ```sh
    En esta opcion se enviaran (a la base de datos para actualizar status) las facturas que fueron
    revisadas y cumplieron con las reglas de validacion tanto de forma automatica como de forma manual
@@ -85,7 +85,7 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
 
 3. Reporte de Acciones :
 
-    * `Reporte de outlook` [xml_outlook.md](https://github.com/jr-acosta/specs-reqs) 
+    * `Reporte de outlook` [xml_outlook.md](https://github.com/jr-acosta/specs-reqs/reportes/xml_outlook.md) 
    
    ```sh
    La finalidad de este reporte es cotejar las facturas que el proveedor señala en su "Archivo Excel"
@@ -93,7 +93,7 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
    que falte un xml quedara fuera de revision.
    ```
 
-   * `Reporte de Incidencias en Validacion` [rev_incidencias.md](https://github.com/jr-acosta/specs-reqs)
+   * `Reporte de Incidencias en Validacion` [rev_incidencias.md](https://github.com/jr-acosta/specs-reqsreportes/rev_incidencias.md)
 
    ```sh
    Este es el reporte mas imoprtante, con este  reporte se visualizara las facturas revisadas automaticamente
@@ -108,7 +108,7 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
 
 4. Reglas de Validacion :
 
-   * `Archivo con las reglas especificas` [rev_validar.md](https://github.com/jr-acosta/specs-reqs)  
+   * `Archivo con las reglas especificas` [rev_validar.md](https://github.com/jr-acosta/specs-reqs/validaciones/rev_validar.md)  
    
 | Validacion                        | Descripcion de Validacion          |
 | --------------------------------- | ---------------------------------- |
@@ -126,4 +126,4 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
 xx ["Installation"] yy [The Book].
 
 ["Installation"]: https://github.com/jr-acosta/specs-reqs
-[The Book]: https://github.com/jr-acosta/specs-reqs
+[Book]: https://github.com/jr-acosta/specs-reqs
