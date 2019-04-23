@@ -51,9 +51,9 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
 
 2. Arhivos UI y acciones a seguir :
 
-   * `Revision inicial` [Rev1.jpg](https://github.com/jr-acosta/specs-reqs)
+   * `Revision inicial` [rev1.jpg](https://github.com/jr-acosta/specs-reqs)
    
-   ![REV1](/files/Rev1.JPG)
+   ![REV1](/files/rev1.jpg)
    ```sh
    La revision inicial consiste en revisar el archivo de excel que envia el proveedor donde se especifica
    que facturas son mencionadas para exigir el pago por parte de esta institucion. si la factura que el
@@ -62,18 +62,18 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
    que el proveedor reclame.
    ```
 
-   * `Validacion` [Rev2.jpg](https://github.com/jr-acosta/specs-reqs) 
+   * `Validacion` [rev2.jpg](https://github.com/jr-acosta/specs-reqs) 
 
-   ![REV2](/files/Rev2.JPG)
+   ![REV2](/files/rev2.jpg)
    ```sh
    En esta opcion se ejecutara de forma automatica la revision de las facturas que fueron encontradas
    en la bandeja de entrada de outlook, la revision incluye de forma automatica las reglas de revision.
    En este punto el operador/usuario no interviene solo espera el resultado.
    ```
 
-   * `Actualizar Status` [Rev3.jpg](https://github.com/jr-acosta/specs-reqs) 
+   * `Actualizar Status` [rev3.jpg](https://github.com/jr-acosta/specs-reqs) 
 
-   ![REV3](/files/Rev3.JPG)
+   ![REV3](/files/rev3.jpg)
    ```sh
    En esta opcion se enviaran (a la base de datos para actualizar status) las facturas que fueron
    revisadas y cumplieron con las reglas de validacion tanto de forma automatica como de forma manual
