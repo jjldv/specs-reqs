@@ -1,5 +1,5 @@
 [package]
-name = "specs-reqs"
+name = "specs-rex"
 version = "0.1.0"
 authors = ["reneacosta <josue.acosta@stjsonora.gob.mx>"]
 edition = "2018"
