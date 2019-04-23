@@ -123,7 +123,7 @@ Descripcion de propuesta para la implementacion de revision de los archivos _**X
 |Historial Paso final |Modificar historial en BD requisiciones aceptadas automaticamente y manualmente , poner la requisicion en Status "Rev-Xml" para que no se pueda volver a referenciar la misma requisicion 2 veces en posteriores revisiones y validaciones|
 
 
-xx ["Installation"] yy [The Book].
+xx ["Installation"] yy [Book].
 
 ["Installation"]: https://github.com/jr-acosta/specs-reqs
 [Book]: https://github.com/jr-acosta/specs-reqs
