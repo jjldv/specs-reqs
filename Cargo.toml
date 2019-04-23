@@ -1,7 +1,7 @@
 [package]
 name = "specs-reqs"
 version = "0.1.0"
-authors = ["reneacosta <rene.acl@hotmail.com>"]
+authors = ["reneacosta <josue.acosta@stjsonora.gob.mx>"]
 edition = "2018"
 
 [dependencies]
